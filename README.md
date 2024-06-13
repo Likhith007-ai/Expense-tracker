@@ -19,5 +19,5 @@ A web application for tracking expenses, allowing users to add, edit, and delete
 ## Setup and Deployment
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Likhith007-ai/Expense-tracker.git
    cd expense-tracker
