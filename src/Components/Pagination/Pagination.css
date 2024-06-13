@@ -1,0 +1,14 @@
+.arrow{
+    border: 1px solid rgb(215, 209, 209) ;
+    background-color:rgb(215, 209, 209)  ;
+    padding:10px;
+    border-radius: 50%;
+    margin:10px;
+}
+.num{
+    border: 1px solid #43967B;
+    background: #43967B;
+    padding: 10px;
+    border-radius: 25%;
+    margin: 10px;
+}

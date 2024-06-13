@@ -1,0 +1,46 @@
+.AddWallet{
+    border: 1px solid #EFEFEFD9;
+    background-color: #EFEFEFD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:400px;
+    border-radius: 10px;
+}
+.heading{
+    color: #000000;
+}
+.inputs{
+    border:1px solid white;
+    padding:10px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius:10px;
+    margin-right: 5px;
+
+}
+.button3{
+    background: #F4BB4A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: #9DFF5B;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px ;
+}
+.button4{
+    background:#D9D9D9;
+    color: #000000;
+    border-radius: 10px;
+    border: #9DFF5B;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px ;
+}
+@media(max-width:767px){
+    .AddWallet{
+        width:300px;
+    }
+}

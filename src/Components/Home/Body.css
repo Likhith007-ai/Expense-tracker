@@ -1,0 +1,77 @@
+h3 {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin: 0px 0px 10px 50px;
+}
+h4 {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+.wallet {
+  border: 1px solid #9b9b9b;
+  background: rgba(155, 155, 155, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  margin: 10px;
+  margin-left: 15px;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #626262;
+  padding: 25px;
+  background-color: #626262;
+  margin: 0px 40px 10px 40px;
+  border-radius: 20px;
+}
+.button1 {
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  color: #ffffff;
+  border-radius: 30px;
+  border: #9dff5b;
+  font-size: 20px;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+.button2 {
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+  color: #ffffff;
+  border-radius: 30px;
+  border: #ff4747;
+  font-size: 20px;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+.Bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .first {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wallet {
+    width: auto;
+
+    margin-bottom: 10px;
+  }
+  .Bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

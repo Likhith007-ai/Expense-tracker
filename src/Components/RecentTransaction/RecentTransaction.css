@@ -1,0 +1,71 @@
+.mainpart {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 10px 110px 10px 50px;
+  border-radius: 10px;
+}
+.Divfirst {
+  margin: 15px;
+
+  display: flex;
+}
+.Recenthead {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 30px;
+  margin: 10px 0px 10px 50px;
+}
+.noTransaction {
+  border: 1px solid #9b9b9b;
+  padding: 20px;
+  margin: 20px 0px 10px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  font-style: italic;
+  width: 75%;
+}
+
+.price {
+  color: #f4bb4a;
+  font-family: "Open Sans";
+  font-weight: bolder;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 50px;
+}
+.innerpart {
+  border-bottom: 1px solid rgb(155, 155, 155);
+  margin: 0px 0px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Divsecond {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.edit {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+.recent {
+  width: 70%;
+}
+@media (max-width: 767px) {
+  .mainpart {
+    width: 400px;
+  }
+  .recent {
+    width: 100%;
+  }
+  .noTransaction{
+    margin-left: 30px;
+  }
+}

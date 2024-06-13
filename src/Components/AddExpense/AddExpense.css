@@ -1,0 +1,28 @@
+
+.Add-Expense{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.exp1{
+    width: 400px;
+    border: 1px solid #EFEFEFD9;
+    background-color: #EFEFEFD9;
+    border-radius: 10px;
+}
+.inner{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+@media(max-width:767px){
+.exp1{
+    width:200px;
+    padding: 10px;
+}
+.inner{
+  display: block;
+  padding: 0px 10px 0px 10px;;
+}
+}

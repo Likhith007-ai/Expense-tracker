@@ -1,0 +1,30 @@
+.span1 {
+  display: block;
+  width: 20px;
+  height: 10px;
+}
+.Main1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  color: #ffffff;
+  font-family: "Open-Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
+}
+.span-name{
+    margin-left: 10px;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .Main {
+    width: 300px;
+  }
+}
